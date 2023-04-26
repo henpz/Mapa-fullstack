@@ -1,0 +1,62 @@
+.register-container{
+    width: 250px;
+    height: 220px;
+    padding: 20px;
+    background-color: rgb(180, 180, 180);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.formulario{
+    padding: 10px;
+    height: 100px;
+}
+
+.formulario input,
+.formulario button {
+  margin-bottom: 10px;
+}
+.logo {
+    display: flex;
+    margin-bottom: 40px;
+    
+  }
+
+
+#logo{
+    margin: auto;
+    width: 30px;
+}
+
+#registerBtn{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: slateblue;
+    cursor: pointer;
+
+}
+
+.sucesso{
+    text-align: center;
+    color: green;
+}
+
+.falha{
+    text-align: center;
+    color: red;
+}
+
+#x{
+    cursor: pointer;
+    width: 15px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

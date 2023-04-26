@@ -1,0 +1,92 @@
+.card{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label{
+  width: max-content;
+  color: rgb(253, 63, 63);
+  font-size: 13px;
+  border-bottom: 1px solid rgb(253, 63, 63);
+  margin: 3px 0;
+}
+
+.desc{
+  font-size: 12px;
+  
+}
+
+.estrela{
+  color: gold;
+}
+
+.username{
+  font-size: 14px;
+}
+
+.datA{
+  font-size: 12px
+}
+
+form{
+  width: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input{
+  border: none;
+  border-bottom:  1px solid gray;
+}
+
+input::placeholder, textarea::placeholder{
+  font-size: 12px;
+  color: gray;
+}
+
+.form-container{
+  width: 400px;
+}
+
+.submitButton{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(253, 63, 63);
+  margin-top: 10px;
+}
+
+.button{
+  z-index: 888;
+}
+
+.head{
+  margin-left: 15px;
+  height: 40px;
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(46, 46, 46);
+  align-items: center;
+}
+
+.button{
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
