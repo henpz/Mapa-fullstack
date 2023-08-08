@@ -6,7 +6,6 @@ Armazenei alguns dados no localstorage do navegador.
 O projeto conta com area de login/register, onde utilizado criptografia de senha para o banco de dados do mongodb.
 neste projeto você pode marcar lugares, dar uma descrição e uma nota para o lugar
 
-por fim você pode ver um video curto mostrando o projeto funcionando: https://youtu.be/6FEDg7P2Kbw
 
 OBS: você pode baixar para ver o codigo, mas não será possível interagir pois o meu IP é o único que está autorizado no banco de dados do mongodb, pensei em upar no github pages porem ele so hospeda páginas estaticas (HTML CSS JS) 
 
